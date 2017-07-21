@@ -1,0 +1,82 @@
+#background {
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    left: 0px; 
+    top: 0px; 
+    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+}
+
+.stretch {
+    width:100%;
+    height:100%;
+}
+
+.question-box {
+	color: white;
+	/*border-color: white;
+	border-width: 5px;*/
+	text-align: center;
+	font-size: 60px;
+	color: #f4d742;
+	font-family: 'Bangers';
+
+}
+
+.btn-group {
+	align-content: center; 
+}
+
+.intro {
+	font-family: 'Molle', cursive;
+	font-size: 80px;
+	color: red;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.instructions {
+	display: flex;
+	justify-content: flex-end;
+	font-family: 'Bangers', sans-serif;
+	font-size: 20pt;
+	color: #f4d742;
+	flex-wrap: wrap;
+	margin-left: 350px;
+	margin-top: 20px;
+	margin-right: 350px;
+	padding: 20px 10px 20px 40px;
+}
+
+#timer {
+	display: flex;
+	justify-content: center;
+	font-size: 60px;
+	text-align: center;
+	color: white;
+	font-family: 'Black Ops One'; 'cursive';
+	background-color: black;
+	padding: 10px 10px 10px 10px;
+	border-radius: 25px;
+	margin-left: 575px;
+	margin-right: 575px;
+	margin-bottom: 25px;
+}
+
+.results {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-size: 60px;
+	text-align: center;
+	color: #f4d742;
+	font-family: 'Bangers';
+	background-color: black;
+	padding: 20px 20px 20px 20px;
+	border-radius: 25px;
+	margin-left: 425px;
+	margin-right: 425px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+}
