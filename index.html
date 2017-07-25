@@ -31,7 +31,12 @@
 	<h1 class="intro">Baseball Nickname Trivia</h1>
 
 	<p class="instructions">Take a few seconds (actually 60 of them!) and see how many minor league baseball team nickname's you know. Good Luck!</p>
+	<p class="instructions2">Press start to begin the game!</p>
 
+	<p>
+  		<button type="button" class="btn btn-default btn-lg" id="start">START</button>
+	</p>
+start
 	<p id="timer">:60</p>
 
 
@@ -40,15 +45,18 @@
 	    <img src="https://hdwallsource.com/img/2017/8/night-baseball-field-wallpaper-61177-62987-hd-wallpapers.jpg" class="stretch" alt="" />
 	</div>
 
-	<div class="question-box">
-		<p>Carolina . . .</p>
-	</div>
+	
 
-	<div class="btn-group" role="group" aria-label="...">
-  		<button type="button" class="btn btn-default">Pelicans</button>
-  		<button type="button" class="btn btn-default">Hillcats</button>
-		<button type="button" class="btn btn-default">Mudcats</button>
-		<button type="button" class="btn btn-default">Mudhens</button>
+    <div class="question-box">
+		<p>Carolina . . .</p>
+    </div>
+
+
+	<div class="btn-group text-center" id="Q1" role="group" aria-label="...">
+  		<button type="button" class="btn btn-default wrong AB">Pelicans</button>
+  		<button type="button" class="btn btn-default wrong AB">Hillcats</button>
+		<button type="button" class="btn btn-default right AB">Mudcats</button>
+		<button type="button" class="btn btn-default wrong AB">Mudhens</button>
 	</div>
 
 	<div class="question-box">
@@ -56,10 +64,10 @@
 	</div>
 
 	<div class="btn-group" role="group" aria-label="...">
-  		<button type="button" class="btn btn-default">Blue Rocks</button>
-  		<button type="button" class="btn btn-default">Keys</button>
-		<button type="button" class="btn btn-default">Sand Gnats</button>
-		<button type="button" class="btn btn-default">Keys</button>
+  		<button type="button" class="btn btn-default right AB">Blue Rocks</button>
+  		<button type="button" class="btn btn-default wrong AB">Keys</button>
+		<button type="button" class="btn btn-default wrong AB">Sand Gnats</button>
+		<button type="button" class="btn btn-default wrong AB">Keys</button>
 	</div>
 
 	<div class="question-box">
@@ -67,10 +75,10 @@
 	</div>
 
 	<div class="btn-group" role="group" aria-label="...">
-  		<button type="button" class="btn btn-default">Manatees</button>
-  		<button type="button" class="btn btn-default">Muckdogs</button>
-		<button type="button" class="btn btn-default">Pelicans</button>
-		<button type="button" class="btn btn-default">Tourists</button>
+  		<button type="button" class="btn btn-default wrong AB">Manatees</button>
+  		<button type="button" class="btn btn-default wrong AB">Muckdogs</button>
+		<button type="button" class="btn btn-default right AB">Pelicans</button>
+		<button type="button" class="btn btn-default wrong AB">Tourists</button>
 	</div>
 
 	<div class="question-box">
@@ -78,10 +86,10 @@
 	</div>
 
 	<div class="btn-group" role="group" aria-label="...">
-  		<button type="button" class="btn btn-default">Bulls</button>
-  		<button type="button" class="btn btn-default">Nationals</button>
-		<button type="button" class="btn btn-default">River Hawks</button>
-		<button type="button" class="btn btn-default">Silver Hawks</button>
+  		<button type="button" class="btn btn-default wrong AB">Bulls</button>
+  		<button type="button" class="btn btn-default right AB">Nationals</button>
+		<button type="button" class="btn btn-default wrong AB">River Hawks</button>
+		<button type="button" class="btn btn-default wrong AB">Silver Hawks</button>
 	</div>
 
 	<div class="question-box">
@@ -89,10 +97,10 @@
 	</div>
 
 	<div class="btn-group" role="group" aria-label="...">
-  		<button type="button" class="btn btn-default">Nationals</button>
-  		<button type="button" class="btn btn-default">Red Sox</button>
-		<button type="button" class="btn btn-default">Lookouts</button>
-		<button type="button" class="btn btn-default">Flying Squirrels</button>
+  		<button type="button" class="btn btn-default wrong AB">Nationals</button>
+  		<button type="button" class="btn btn-default wrong AB">Red Sox</button>
+		<button type="button" class="btn btn-default wrong AB">Lookouts</button>
+		<button type="button" class="btn btn-default right AB">Flying Squirrels</button>
 	</div>
 
 	<div class="question-box">
@@ -100,10 +108,10 @@
 	</div>
 
 	<div class="btn-group" role="group" aria-label="...">
-  		<button type="button" class="btn btn-default">Dash</button>
-  		<button type="button" class="btn btn-default">Hops</button>
-		<button type="button" class="btn btn-default">Mudcats</button>
-		<button type="button" class="btn btn-default">Muckdogs</button>
+  		<button type="button" class="btn btn-default wrong AB">Dash</button>
+  		<button type="button" class="btn btn-default right AB">Hops</button>
+		<button type="button" class="btn btn-default wrong AB">Mudcats</button>
+		<button type="button" class="btn btn-default wrong AB">Muckdogs</button>
 	</div>
 
 	<div class="question-box">
@@ -111,10 +119,10 @@
 	</div>
 
 	<div class="btn-group" role="group" aria-label="...">
-  		<button type="button" class="btn btn-default">Hillcats</button>
-  		<button type="button" class="btn btn-default">Dash</button>
-		<button type="button" class="btn btn-default">Pelicans</button>
-		<button type="button" class="btn btn-default">Keys</button>
+  		<button type="button" class="btn btn-default wrong AB">Hillcats</button>
+  		<button type="button" class="btn btn-default wrong AB">Dash</button>
+		<button type="button" class="btn btn-default wrong AB">Pelicans</button>
+		<button type="button" class="btn btn-default right AB">Keys</button>
 	</div>
 
 	<div class="question-box">
@@ -122,10 +130,10 @@
 	</div>
 
 	<div class="btn-group" role="group" aria-label="...">
-  		<button type="button" class="btn btn-default">Red Sox</button>
-  		<button type="button" class="btn btn-default">Nuts</button>
-		<button type="button" class="btn btn-default">Dash</button>
-		<button type="button" class="btn btn-default">Blue Rocks</button>
+  		<button type="button" class="btn btn-default wrong AB">Red Sox</button>
+  		<button type="button" class="btn btn-default wrong AB">Nuts</button>
+		<button type="button" class="btn btn-default right AB">Dash</button>
+		<button type="button" class="btn btn-default wrong AB">Blue Rocks</button>
 	</div>
 
 	<div class="question-box">
@@ -133,10 +141,10 @@
 	</div>
 
 	<div class="btn-group" role="group" aria-label="...">
-  		<button type="button" class="btn btn-default">Bulls</button>
-  		<button type="button" class="btn btn-default">Flying Squirrels</button>
-		<button type="button" class="btn btn-default">Dash</button>
-		<button type="button" class="btn btn-default">Bells</button>
+  		<button type="button" class="btn btn-default right AB">Bulls</button>
+  		<button type="button" class="btn btn-default wrong AB">Flying Squirrels</button>
+		<button type="button" class="btn btn-default wrong AB">Dash</button>
+		<button type="button" class="btn btn-default wrong AB">Bells</button>
 	</div>
 
 	<div class="question-box">
@@ -144,19 +152,20 @@
 	</div>
 
 	<div class="btn-group" role="group" aria-label="...">
-  		<button type="button" class="btn btn-default">Mudcats</button>
-  		<button type="button" class="btn btn-default">Tourists</button>
-		<button type="button" class="btn btn-default">Biscuits</button>
-		<button type="button" class="btn btn-default">Silver Hawksz</button>
+  		<button type="button" class="btn btn-default wrong AB">Mudcats</button>
+  		<button type="button" class="btn btn-default right AB">Tourists</button>
+		<button type="button" class="btn btn-default wrong AB">Biscuits</button>
+		<button type="button" class="btn btn-default wrong AB">Silver Hawksz</button>
 	</div>
 
 
 	<div class="results">
 		<p>Your Results :</p>
-		<p>0 Correct!</p>
-		<p>How'd You Do!</p>
+		<p><span id="correct">0</span> Correct!</p>
+		<p id="comment">How'd You Do!</p>
 	</div>
 
+	 <script src= "assets/javascript/app.js"></script>
 
 
 
